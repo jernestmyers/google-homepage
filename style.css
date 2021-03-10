@@ -1,0 +1,14 @@
+/*
+color: rgb(34, 34, 34);
+font-family: arial, sans-serif;
+font-size: 14px;  (about and store) 
+font-size: 13px;  (gmail and images)
+*/
+
+.container-header {
+    display: flex;
+}
+
+#about {
+    background-color: red;
+}
