@@ -6,9 +6,29 @@ font-size: 13px;  (gmail and images)
 */
 
 .container-header {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
-
+.left-container {
+    background-color: blue;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
 #about {
     background-color: red;
+}
+#store {
+    background-color: yellow;
+}
+.right-container {
+    background-color: rgb(124, 124, 212);
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-area: right; 
+}
+#gmail {
+    background-color: rgb(0, 255, 149);
+}
+#images {
+    background-color: rgb(255, 0, 200);
 }
