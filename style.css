@@ -3,33 +3,47 @@ body {
     font-family: arial, sans-serif;
     font-size: 14px;
 }
-
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
 .container-header {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    padding: 6px;
 }
 .left-container {
     background-color: blue;
     display: flex;
+    align-items: center;
 }
 #about {
     background-color: red;
+    padding: 5px;
+    margin: 0px 5px 0px 15px;
 }
 #store {
     background-color: yellow;
+    padding: 5px;
+    margin: 0 5px;
 }
 .right-container {
     background-color: rgb(124, 124, 212);
     display: flex;
     justify-content: flex-end;
+    align-items: center;
 }
 #gmail {
     background-color: rgb(0, 255, 149);
-    font-size: 13px; 
+    font-size: 13px;
+    padding-left: 15px;
 }
 #images {
     background-color: rgb(255, 0, 200);
-    font-size: 13px; 
+    font-size: 13px;
+    padding-right: 15px;
 }
 #user {
     background: transparent;
@@ -42,4 +56,12 @@ body {
     width: 24px;
     height: 24px;
     color: rgb(95, 99, 104);
+}
+.google-icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.search-container {
+    padding: 20px;
 }
