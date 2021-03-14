@@ -2,6 +2,12 @@ body {
     color: rgb(34, 34, 34);
     font-family: arial, sans-serif;
     font-size: 14px;
+    margin: 0px;
+}
+.main-view {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
 }
 a, a:visited {
     text-decoration: none;
@@ -112,17 +118,18 @@ a:hover {
 .search-buttons {
     display: flex;
     justify-content: center;
+    margin-bottom: 50px;
 }
 .search-option1 {
     background-color: rgb(248,249,250);
-    padding: 10px 20px;
+    padding: 10px;
     margin-top: 10px;
     margin-right: 10px;
     border-radius: 4px;
 }
 .search-option2 {
     background-color: rgb(248, 249, 250);
-    padding: 10px 20px;
+    padding: 10px;
     margin-top: 10px;
     margin-left: 10px;
     border-radius: 4px;
@@ -135,4 +142,27 @@ a:hover {
 }
 .search-option1:hover, .search-option2:hover {
     box-shadow: 2px 2px 1px 1px rgba(60,64,67,0.08), -1px -1px 1px 1px rgba(60,64,67,0.08);
+}
+.footer-container {
+    background-color:rgb(242, 242, 242);
+    color: rgb(112,117,122);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 15px;
+}
+#leaf-spacing {
+    padding-left: 4px;
+}
+.carbon-neutral {
+    order: 2;
+}
+.footer-left {
+    order: 1;
+}
+.footer-right {
+    order: 3;
+}
+.footer-links {
+    padding: 15px;
 }
