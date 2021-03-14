@@ -79,7 +79,32 @@ a:hover {
     align-items: center;
 }
 .search-container {
+    margin-top: 5px;
     padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search-field {
+    width: 35em;
+    border: none transparent;
+    outline: none;
+}
+.search-border {
+    padding: 15px 50px;
+    border-radius: 30px;
+    border: 1px solid rgb(223,225,229);
+}
+.search-border:hover {
+    box-shadow: 2px 2px 1px 1px rgba(60,64,67,0.08), -1px -1px 1px 1px rgba(60,64,67,0.08);
+}
+.search-icon {
+    height: 20px;
+    width: 20px;
+    color: rgb(112,117,122);
+    fill: rgb(112,117,122);
+    position: relative;
+    left: 40px;
 }
 .right-container-items {
     padding: 5px 10px;
