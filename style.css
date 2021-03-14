@@ -109,3 +109,30 @@ a:hover {
 .right-container-items {
     padding: 5px 10px;
 }
+.search-buttons {
+    display: flex;
+    justify-content: center;
+}
+.search-option1 {
+    background-color: rgb(248,249,250);
+    padding: 10px 20px;
+    margin-top: 10px;
+    margin-right: 10px;
+    border-radius: 4px;
+}
+.search-option2 {
+    background-color: rgb(248, 249, 250);
+    padding: 10px 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 4px;
+}
+.button-style {
+    background-color: rgb(248, 249, 250);
+    font-size: 14px;
+    border: none;
+    font-family: arial, sans-serif;
+}
+.search-option1:hover, .search-option2:hover {
+    box-shadow: 2px 2px 1px 1px rgba(60,64,67,0.08), -1px -1px 1px 1px rgba(60,64,67,0.08);
+}
